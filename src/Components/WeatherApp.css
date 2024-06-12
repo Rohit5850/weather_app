@@ -1,0 +1,84 @@
+.app_heading {
+    padding: 10px 0;
+    background: #454040;
+    color: #fdfdfd;
+}
+
+
+.app_content {
+    width: 450px;
+    margin: 0 auto;
+    background: black;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 13px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input_city input {
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+    outline: none;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+}
+
+.data_city , .data_date , .data_temp , .data_windSpeed {
+    color: white;
+}
+
+.weatherDataShow {
+    padding: 20px;
+}
+
+.data_temp p {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.data_temp .deg {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 4px;
+}
+.data_windSpeed .weatherDesp {
+    margin-bottom: 12px;
+    /* font-size: 16px; */
+}
+
+.data_temp {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.input_city {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.error_found {
+    color: white;
+    /* max-height: 100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 40px;
+}
+
+.error_found svg {
+    font-size: 70px;
+    fill: #d7d049;
+}
+.error_found svg {
+    margin-bottom: 10px;
+}
+
+.data_date {
+    font-size: 18px;
+    padding: 10px;
+}
